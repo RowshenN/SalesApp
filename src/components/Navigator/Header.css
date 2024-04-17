@@ -1,0 +1,39 @@
+.navigator-header-div {
+    max-width: 90rem;
+    width: 100%;
+    margin: 60px auto 30px auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .navigator-header-div {
+    margin: 25px 0px;
+  }
+}
+
+.navigator-header{
+    text-align: left;
+    font-family: 'rubik-medium';
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 555px) {
+    .navigator-header {
+      font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .navigator-header {
+      font-size: 20px;
+      line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+  .six_boxes_div {
+    margin: 30px 0 20px 0;
+  }
+} 

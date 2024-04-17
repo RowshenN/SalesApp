@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+git clone repo
+cd ProName
+npm i
+npm run build
+pm2 ls yok bolsa npm i pm2 -g
+pm2 serve ./build --spa --port 80 --name FrontRunOn-80
+
+server_name
+location /{
+pro : http://serIP:80
+}
+
+pm2 stop id || FrontRunOn-5000
+pm2 start id
+pm2 restart id
+pm2 delete id
+"# SalesApp" 

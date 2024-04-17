@@ -1,0 +1,13 @@
+.miniflier_container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 20px; 
+    padding-right: 20px;
+    max-width: 90rem;
+    width: 100%;
+    height: 210px;   
+    margin: 30px auto 60px auto;
+    border-radius: 16px;
+    background:  #FBF8FD;
+}

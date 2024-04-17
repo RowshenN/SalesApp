@@ -1,0 +1,38 @@
+#empty-cart {
+    margin-top: 18px;
+    background: #edf0ff;
+    width: 100%;
+}
+  
+.emptypage_inner_div {
+    margin: 0 auto;
+    max-width: 90rem;
+    width: 100%;
+}
+
+#empty-cart p.txt-cart-isempty {
+    color: #000000;
+    font-size: 24px;
+    font-family: "rubik-bold";
+    font-weight: 700;
+    margin-top: 90px;
+  }
+  
+#empty-cart .txt-under-empty {
+    color: #000000;
+    font-size: 16px;
+    font-family: "rubik-regular";
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+@media only screen and (max-width: 576px) {
+    #empty-cart .txt-cart-isempty {
+      margin-top: 24px !important;
+    }
+  
+    #empty-cart .txt-under-empty {
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+}

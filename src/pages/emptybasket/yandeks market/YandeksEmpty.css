@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.yandeksmarket_container {
+    width: 100%;
+}
+
+.yandeks_container_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 86.5px;
+    margin-bottom: 142px;
+}
+    
+.yandeks_container_header {
+    font-size: 24px;
+    font-family: 'rubik-bold';
+    margin-bottom: 12px;
+}
+
+.yandeks_container_text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'rubik-regular';
+}
+
+.yandeks_container_button {
+    width: 124px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background: #FC0;
+    font-size: 15px;
+    font-family: 'rubik-regular';
+    text-align: center;
+    transition: all 0.15s linear;
+}
+
+.yandeks_container_button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 8px rgba(0,0,0, .3);
+}

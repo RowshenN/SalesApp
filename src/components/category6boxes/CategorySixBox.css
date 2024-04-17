@@ -1,0 +1,15 @@
+.category_six_box{
+    background-color: #fbf8fb;
+    border-radius: 16px;
+    /* width: 206px; */
+    width: 100%;
+    cursor: pointer;
+}
+
+.category_six_box img {
+    width: 100%;
+    /* object-fit: contain; */
+    height: 100%;
+    border-radius: 16px;
+}
+  

@@ -1,0 +1,14 @@
+.last_search_container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 10px;
+}
+
+.search_name_div{
+    flex: 1;
+    padding: 15px;
+    border-bottom: 2px solid #B7B7B7;
+}

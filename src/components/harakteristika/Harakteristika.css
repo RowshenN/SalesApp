@@ -1,0 +1,45 @@
+.harakteristika_container {
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.harakteristika_header {
+    font-family: 'inter-bold';
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.harakteristika_inner_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.harakteristika_inner_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.harakter_name {
+    color: #919094;
+    font-family: 'inter-medium';
+    font-size: 16px;
+}
+
+.harakteristika_inner_div div {
+    background-color: #fff;
+    width: 100%;
+    height: 10px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.harakter_text {
+    color: #8F5BD7;
+    font-family: 'inter-regular';
+    font-size: 16px;
+}

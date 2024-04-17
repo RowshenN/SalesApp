@@ -1,0 +1,22 @@
+.empty_basket_conatiner {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #recommendation .txt-recommendation {
+    padding: 40px 0px;
+    color: #000000;
+    font-size: 27px;
+    font-family: "rubik-medium";
+    font-weight: 500;
+  }
+  
+  /* media queries */
+@media only screen and (max-width: 576px) {
+    #recommendation .txt-recommendation {
+      font-size: 21px;
+      padding: 20px 0px;
+    }
+}
+  

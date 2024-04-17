@@ -1,0 +1,41 @@
+.cards-div-inner {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    gap: 30px;
+  }
+
+  @media only screen and (max-width: 1220px) {
+    .cards-div-inner {
+      grid-template-columns: repeat(4, 1fr);
+      margin-bottom: 90px;
+    }
+  }  
+  
+  @media only screen and (max-width: 990px) {
+    .cards-div-inner {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20;
+    }
+  }
+
+  @media only screen and (max-width: 730px) {
+    .cards-div-inner {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .cards-div-inner {
+      margin-bottom: 90px;
+    }
+  } 
+
+  @media only screen and (max-width: 700px) {
+    .cards-div-inner {
+      margin-bottom: 30px;
+    }
+  }

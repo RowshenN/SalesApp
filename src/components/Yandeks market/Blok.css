@@ -1,0 +1,55 @@
+.yndeks_blok_container {
+    border-radius: 16px;
+    background: #C9D8D1;
+    width: 546px;
+}
+
+.ynadeks_blok_header_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yandeks_blok_text_div {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    margin: 40px 0 0 23px;
+    width: 277px;
+}
+
+.yandeks_blok_header_text {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'inter-regular';
+}
+
+.yandeks_blok_header {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'inter-medium';
+}
+
+.yandeks_market_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 10px;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 16px;
+    width: 75px;
+    height: 40px;
+    background-color: #C9D8D1;
+    margin: 58px 38px 0 0;
+    font-size: 18px;
+    font-family: 'inter-regular';
+}
+
+.yandeks_blok_cards_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 43px 38px 47px 38px;
+}

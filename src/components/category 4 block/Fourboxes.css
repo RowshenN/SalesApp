@@ -1,0 +1,22 @@
+.four_boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    max-width: 90rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .four_boxes {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .four_boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

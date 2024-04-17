@@ -1,0 +1,14 @@
+
+.category_four_div{
+    background-color: #fbf8fb;
+    border-radius: 16px;
+    /* max-width: 330px; */
+    width: 100%;
+    cursor: pointer;
+}
+
+.category_four_div img {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 16px;
+}

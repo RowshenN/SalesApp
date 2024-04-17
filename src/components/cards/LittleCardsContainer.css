@@ -1,0 +1,33 @@
+.little_cards_container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  max-width: 90rem;
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+@media only screen and (max-width: 1220px) {
+  .little_cards_container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}  
+
+@media only screen and (max-width: 990px) {
+  .little_cards_container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .little_cards_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .little_cards_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
